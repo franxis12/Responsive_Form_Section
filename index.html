@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/form.css" />
 </head>
 <body>
-    
+
+    <section class="sectionForm">
+        <form class="form">
+            <div class="formSection one">
+            <h3>Contact</h3>
+            </div>
+            <div class="formSection two">
+                <label for="firstN" class="visually-hidden">First Name</label>
+                <input tabindex="100" class="inputs" type="text" placeholder="Name" id="firstN">
+                
+                <label for="lastN" class="visually-hidden">Lastname</label>
+                <input tabindex="101" class="inputs" type="text" placeholder="Lastname" id="lastN">       
+            </div>
+            <div class="formSection three">
+                <label for="email" class="visually-hidden">Email</label>
+                <input tabindex="102" class="inputEmail" type="text" placeholder="Email" id="email">   
+            </div>
+            <div class="formSection four">
+                <label for="message" class="visually-hidden">message</label>
+                <textarea tabindex="103" class="textarea" placeholder="Message" id="txtArea"></textarea>
+            </div>
+            <div class="formSection five">
+                <button tabindex="105" class="btn" type="submit" id="btn">Submit</button>
+            </div>
+        </form>
+    </section>
+      
+    <script src="scripts/component.js"></script>
+
 </body>
 </html>

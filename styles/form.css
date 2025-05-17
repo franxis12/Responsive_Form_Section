@@ -1,0 +1,142 @@
+body {
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionForm{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form {
+    background-color: #fff;
+    width: 80vw;
+    height: 80%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+    max-width: 800px;
+    box-shadow: 0 0 3px #3333;
+}
+.formSection{
+    width: 80vw;
+    height: auto;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;/**/
+    padding: 10px;
+    gap: 10px;
+}
+
+.inputs{
+    width: 80vw;
+    height: 30px;
+    border: solid 1px #3333;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    padding-left: 10px;
+    max-width: 800px;
+
+    
+}
+
+.inputEmail{
+    width: 80vw;
+    height: 30px;
+    border: solid 1px #3333;
+    border-radius: 10px;
+    max-width: 800px;
+    background-color: #f1f1f1;
+    padding-left: 10px;
+
+
+    
+}
+
+.textarea{
+    width: 80vw;
+    height: 100px;
+    border: solid 1px #3333;
+    border-radius: 10px;
+    max-width: 800px;
+        background-color: #f1f1f1;
+
+        padding-left: 10px;
+                max-height: 45vh;
+     min-width: 40vw;
+
+
+        
+
+}
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+.five {
+     margin: 0;
+    width: 80vw;
+    height: auto;
+    display: flex;
+    justify-content: end;           
+    max-width: 800px;
+}
+.one {
+     margin: 0;
+    width: 80vw;
+    height: auto;
+    display: flex;
+    justify-content: start;           
+    max-width: 800px;
+    font-size: 20px;
+    font-weight: bold;
+    max-height: 40px;
+}
+
+.btn{
+    width: 80vw;
+    max-width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #004cff;
+    color: white;
+    font-weight: bold;
+    transition: 0.1s;
+}
+.btn:hover{
+    background-color: #4079ff;
+    scale: 1.01;
+}
+
+@media screen and (max-width: 430px) {
+    .two {
+        flex-direction: column;
+        gap: 30px;    
+        
+    }
+
+    .inputs {
+        max-width: 295px;    
+    }
+
+    .textarea{
+        min-width: 70vw;
+        max-height: 45vh;
+    }
+}
